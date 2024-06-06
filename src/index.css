@@ -61,9 +61,29 @@ main {
   color: #f76691;
 }
 
+.weather-app-temp-container {
+  display: flex;
+}
+
+.weather-app-unit {
+  margin-top: 16px;
+  font-size: 28px;
+}
+
 .weather-app-data {
   display: flex;
   justify-content: space-between;
+}
+
+.weather-app-temp-value {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.weather-app-icon {
+  font-size: 44px;
+  margin-right: 10px;
+  margin-top: 16px;
 }
 
 footer {
