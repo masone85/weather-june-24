@@ -51,7 +51,7 @@ main {
 }
 
 .weather-app-details {
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(39, 33, 66, 0.4);
   line-height: 24px;
   font-weight: 500;
@@ -61,7 +61,7 @@ main {
   color: #f76691;
 }
 
-.weather-app-temp-container {
+.weather-app-temperature-container {
   display: flex;
 }
 
@@ -75,7 +75,7 @@ main {
   justify-content: space-between;
 }
 
-.weather-app-temp-value {
+.weather-app-temperature-value {
   font-size: 88px;
   margin-left: 10px;
   font-weight: bold;
