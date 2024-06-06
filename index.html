@@ -16,23 +16,31 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="enter nearest city" />
-          <input type="submit" value="search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="enter nearest city"
+            class="search-form-input"
+          />
+          <input type="submit" value="search" class="search-form-button" />
         </form>
       </header>
 
       <main>
-        <div>
-          <h1>Ibiza</h1>
-          <p>
-            Thursday 10:42, clear sky
-            <br />
-            Humidity: 70%, Wind: 5.14km/h
-          </p>
-        </div>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Ibiza</h1>
+            <p class="weather-app-details">
+              Thursday 10:42, clear sky
+              <br />
+              Humidity: 
+              <strong>
+              70%</strong>, Wind: <strong>5.14km/h</strong>
+            </p>
+          </div>
 
-        <div>☀️ 23°C</div>
+          <div class="weather-app-temp">☀️ 23°C</div>
+        </div>
       </main>
 
       <footer>
